@@ -64,21 +64,29 @@ body {
 
 /* Hero section */
 .hero {
-    display: inline-flex;
-    align-items: center;
-    gap: 97px;
+    display: flex;
     padding-left: 120px;
     padding-right: 120px;
+    
+    align-items: center;
+    justify-content: space-between;
+
     padding-top: 50px;
     background: rgba(229, 84, 115, 0.10);width: 100%;
 }
 .hero-left {
     max-width: 708px;
 }
-
-.hero-right {
+/* 
+.hero-right > img {
     width: 635px;
     height: 800px;
+} */
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;;
 }
 
 .hero > .hero-left > h1 {
