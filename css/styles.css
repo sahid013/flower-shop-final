@@ -202,6 +202,8 @@ body {
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
     margin-bottom: 128px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .hot-deal > .hot-deal-left p {
     max-width: 594px;
